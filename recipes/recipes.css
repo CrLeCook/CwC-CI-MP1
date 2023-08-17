@@ -1,0 +1,51 @@
+* {
+    background-color: rgb(209, 209, 209);
+    font-family: 'Verdana', Verdana, sans-serif;
+}
+
+.recipe-card {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: rgb(35, 35, 35);
+    border-radius: 5px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.recipe-card h1 {
+    text-align: center;
+    color: rgb(39, 71, 98);
+    margin: 20px 0;
+}
+
+.recipe-card img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+    margin-bottom: 7px;
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.directions ul, li, ol, li{
+    color: rgb(0, 0, 0);
+    margin-bottom: 7px;
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.ingredients ul, li, ol, li{
+    color: rgb(0, 0, 0);
+    margin-bottom: 7px;
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 14px;
+}
