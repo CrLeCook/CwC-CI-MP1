@@ -49,3 +49,8 @@ p {
     margin-left: 20px;
     font-size: 14px;
 }
+
+.center-table {
+    margin: 0 auto;
+    text-align: center;
+}
