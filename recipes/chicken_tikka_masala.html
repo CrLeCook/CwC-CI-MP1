@@ -4,129 +4,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cooking with Craig</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/Milestone-Project-1/recipes/recipes.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="recipes.css">
 </head>
 <body>
-
-    <!-- nav bar -->
+    
+    <!-- Navigation bar -->
     <nav class="navbar navbar-expand-sm bg-light justify-content-center">
         <div class="container-fluid">
             <!-- Links -->
             <ul class="navbar-nav">
-                <li class="nav-item dropdown list-unstyled">
+              <li class="nav-item dropdown list-unstyled">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Recipes</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/Milestone-Project-1/recipes/nachos.html">Classic Nachos</a></li>
-                        <li><a class="dropdown-item" href="/Milestone-Project-1/recipes/roast_sunday_dinner.html">Sunday Roast Dinner</a></li>
-                        <li><a class="dropdown-item" href="/Milestone-Project-1/recipes/chicken_tikka_masala.html">Chicken Tikka Masala</a></li>
+                        <li><a class="dropdown-item" href="/recipes/nachos.html">Classic Nachos</a></li>
+                        <li><a class="nav-link disabled" href="#">Roast Sunday Dinner</a></li>
+                        <li><a class="dropdown-item" href="/recipes/chicken_tikka_masala.html">Chicken Tikka Masala</a></li>
                     </ul>
                 </li>
                 <li class="nav-item list-unstyled">
-                    <a class="nav-link" href="/Milestone-Project-1/index.html">Home</a>
+                 <a class="nav-link" href="/index.html">Home</a>
                 </li>
             </ul>
         </div>
     </nav>
-
-    <div class="recipe-card">
-        <div class="recipe-heading">
-            <h1>Chicken Tikka Masala</h1>
+    
+    <div class="container">
+        <div class="recipe-card">
+            <div class="recipe-heading">
+                <h1>Chicken Tikka Masala</h1>
+            </div>
+            <div class="recipe-image">
+                <img src="/images/chicken_tikka.jpg" alt="Image of Chicken Tikka Masala">
+            </div>
+            <p>
+                Chicken tikka masala is usually made with heavy cream, but I like to use coconut milk instead; its subtle sweetness works beautifully with the spices in the dish. Serve with steamed rice.
+            </p>
+            <!-- Table -->
+            <div class="table center-table">
+                <table class="table-bordered table-striped">
+                    <caption>Details</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">Prep time</th>
+                            <th scope="col">Cook time</th>
+                            <th scope="col">Total time</th>
+                            <th scope="col">Servings</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>25 min</td>
+                            <td>45 min</td>
+                            <td>1 hr 10 min</td>
+                            <td>4</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- Ingredients -->
+            <div class="ingredients">
+                <h2>Ingredients</h2>
+                <h3>Chicken Marinade</h3>
+                <ul>
+                    <li>650-700g skinless, boneless chicken thighs</li>
+                    <li>1 tablespoon vegetable oil</li>
+                    <li>2 teaspoons salt</li>
+                    <li>2 teaspoons garam masala</li>
+                    <li>2 teaspoons ground cumin</li>
+                    <li>1 teaspoon ground coriander</li>
+                    <li>1 teaspoon smoked paprika</li>
+                    <li>1 teaspoon ground turmeric</li>
+                    <li>½ teaspoon ground black pepper</li>
+                    <li>¼ teaspoon cayenne pepper</li>
+                    <li>⅛ teaspoon ground cardamom</li>
+                    <li>2 tablespoons clarified butter (ghee), or more as needed</li>
+                </ul>
+                <h3>Tikka Masala Sauce</h3>
+                <ul>
+                    <li>1 onion, chopped</li>
+                    <li>¼ cup tomato paste</li>
+                    <li>4 cloves garlic, finely grated</li>
+                    <li>1 tablespoon finely grated ginger, or more to taste</li>
+                    <li>1 cup crushed tomatoes</li>
+                    <li>1 (400ml) can coconut milk</li>
+                    <li>½ cup chicken broth, or as needed</li>
+                    <li>2 tablespoons chopped fresh cilantro</li>
+                    <li>½ teaspoon red pepper flakes</li>
+                    <li>salt and ground black pepper to taste</li>
+                </ul>
+            </div>
+            <!-- Directions -->
+            <div class="directions">
+                <h2>Directions</h2>
+                <ol>
+                    <li>
+                        Place chicken in a bowl. Drizzle vegetable oil over chicken; toss to coat.
+                    </li>
+                    <li>
+                        Whisk together salt, garam masala, cumin, coriander, paprika, turmeric, black pepper, cayenne pepper, and cardamom in a small bowl. Sprinkle over chicken and turn to coat evenly.
+                    </li>
+                    <li>
+                        Melt clarified butter in a large, heavy skillet over high heat. Cook chicken thighs in hot butter until browned on all sides, 5 to 10 minutes. Transfer chicken to a plate. When cool enough to handle, cut chicken into bite-sized pieces.
+                    </li>
+                    <li>
+                        Make sauce: Place the skillet with chicken drippings over medium-high heat. Stir onion into the skillet; sauté until onion softens and turns translucent, 5 to 6 minutes. Stir in tomato paste and cook until paste caramelizes, about 5 minutes. Stir garlic and ginger into tomato-onion mixture; cook until fragrant, about 1 minute.
+                    </li>
+                    <li>
+                        Pour crushed tomatoes into the skillet. Bring to a boil while scraping the browned bits of food off the bottom of the skillet with a wooden spoon. Pour in coconut milk and chicken broth; bring to a simmer, reduce heat to medium-low, and cook, stirring occasionally, until flavors blend and sauce is slightly reduced, about 15 minutes.
+                    </li>
+                    <li>
+                        Stir chicken and any accumulated juices into sauce. Add cilantro and red pepper flakes; bring to a simmer, reduce heat to medium-low, and cook until chicken is cooked through and tender, 10 to 15 minutes. Season with salt and black pepper.
+                    </li>
+                </ol>
+            </div>
+            <h3><em>Note from Craig</em></h3>
+            <p style="font-family: cursive">
+                <em>You can substitute tomato purée for crushed tomatoes if desired. You can also use 1½ cups heavy whipping cream instead of coconut milk.</em>
+            </p>
+            <p style="text-align: center">**********</p>
         </div>
-        <div class="recipe-image">
-            <img src="/Milestone-Project-1/images/chicken_tikka.jpg" alt="Image of Chicken Tikka Masala">
-        </div>
     </div>
-
-    <!-- Recipe -->
-    <p>
-        Chicken tikka masala is usually made with heavy cream, but I like to use coconut milk instead; its subtle sweetness works beautifully with the spices in the dish. Serve with steamed rice.
-    </p>
-
-    <div class="center-table">
-        <table class="table-bordered table-striped">
-            <caption>Details</caption>
-            <thead>
-                <tr>
-                    <th scope="col">Prep time</th>
-                    <th scope="col">Cook time</th>
-                    <th scope="col">Total time</th>
-                    <th scope="col">Servings</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>25 min</td>
-                    <td>45 min</td>
-                    <td>1 hr 10 min</td>
-                    <td>4</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-
-    <div class="ingredients">
-        <h2>Ingredients</h2>
-        <ul>
-            <li>650-700g skinless, boneless chicken thighs</li>
-            <li>1 tablespoon vegetable oil</li>
-            <li>2 teaspoons salt</li>
-            <li>2 teaspoons garam masala</li>
-            <li>2 teaspoons ground cumin</li>
-            <li>1 teaspoon ground coriander</li>
-            <li>1 teaspoon smoked paprika</li>
-            <li>1 teaspoon ground turmeric</li>
-            <li>½ teaspoon ground black pepper</li>
-            <li>¼ teaspoon cayenne pepper</li>
-            <li>⅛ teaspoon ground cardamom</li>
-            <li>2 tablespoons clarified butter (ghee), or more as needed</li>
-        </ul>
-        <h3>Tikka Masala Sauce</h3>
-        <ul>
-            <li>1 onion, chopped</li>
-            <li>¼ cup tomato paste</li>
-            <li>4 cloves garlic, finely grated</li>
-            <li>1 tablespoon finely grated ginger, or more to taste</li>
-            <li>1 cup crushed tomatoes</li>
-            <li>1 (400ml) can coconut milk</li>
-            <li>½ cup chicken broth, or as needed</li>
-            <li>2 tablespoons chopped fresh cilantro</li>
-            <li>½ teaspoon red pepper flakes</li>
-            <li>salt and ground black pepper to taste</li>
-        </ul>
-    </div>
-
-    <div class="directions">
-        <h2>Directions</h2>
-        <ol>
-            <li>
-                Place chicken in a bowl. Drizzle vegetable oil over chicken; toss to coat.
-            </li>
-            <li>
-                Whisk together salt, garam masala, cumin, coriander, paprika, turmeric, black pepper, cayenne pepper, and cardamom in a small bowl. Sprinkle over chicken and turn to coat evenly.
-            </li>
-            <li>
-                Melt clarified butter in a large, heavy skillet over high heat. Cook chicken thighs in hot butter until browned on all sides, 5 to 10 minutes. Transfer chicken to a plate. When cool enough to handle, cut chicken into bite-sized pieces.
-            </li>
-            <li>
-                Make sauce: Place the skillet with chicken drippings over medium-high heat. Stir onion into the skillet; sauté until onion softens and turns translucent, 5 to 6 minutes. Stir in tomato paste and cook until paste caramelizes, about 5 minutes. Stir garlic and ginger into tomato-onion mixture; cook until fragrant, about 1 minute.
-            </li>
-            <li>
-                Pour crushed tomatoes into the skillet. Bring to a boil while scraping the browned bits of food off the bottom of the skillet with a wooden spoon. Pour in coconut milk and chicken broth; bring to a simmer, reduce heat to medium-low, and cook, stirring occasionally, until flavors blend and sauce is slightly reduced, about 15 minutes.
-            </li>
-            <li>
-                Stir chicken and any accumulated juices into sauce. Add cilantro and red pepper flakes; bring to a simmer, reduce heat to medium-low, and cook until chicken is cooked through and tender, 10 to 15 minutes. Season with salt and black pepper.
-            </li>
-        </ol>
-    </div>
-
-    <h3><em>Note from Craig</em></h3>
-    <p style="font-family: cursive">
-        <em>You can substitute tomato purée for crushed tomatoes if desired. You can also use 1½ cups heavy whipping cream instead of coconut milk.</em>
-    </p>
-
-    <p style="text-align: center">**********</p>
-
 </body>
 </html>
