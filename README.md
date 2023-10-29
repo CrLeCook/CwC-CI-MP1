@@ -1,7 +1,11 @@
-# Milestone Project 1
-To begin with, "Cooking With Craig" wasn't the first idea I had. Originally, I had the idea of a creating a fictional Cryptocurrency - whilst the scope of this assignment would've allowed me to focus on the subject matter, the ideas I had for it and the tools at my disposal didn't align and decided to put the idea on the shelf until more advanced technologies - such as JavaScript and/or Python - are involved.
+<h1 align="center">Cooking with Craig - Milestone Project 1</h1>
 
-Therefore, Cooking With Craig was born. The subject matter was flexible enough to make it personalised to my liking (I get to pick the recipes, yum) and implementing the various requirements wouldn't be too difficult. Essentially, I wouldn't be blinded by the websites contents.
+[View the live project here](https://crlecook.github.io/CwC-CI-MP1/)
+
+# MP1
+To begin with, "Cooking with Craig" wasn't the first idea I had. Originally, I had the idea of a creating a fictional Cryptocurrency - whilst the scope of this assignment would've allowed me to focus on the subject matter, the ideas I had for it and the tools at my disposal didn't align and decided to put the idea on the shelf until more advanced technologies - such as JavaScript and/or Python - are involved.
+
+Therefore, Cooking with Craig was born. The subject matter was flexible enough to make it personalised to my liking (I get to pick the recipes, yum) and implementing the various requirements wouldn't be too difficult. Essentially, I wouldn't be blinded by the websites contents.
 
 ## Purpose & Value
 The purpose of the website is to provide the user the desired recipe as simply and easily as possible. The value of the website is the ease of use it provides. The colour scheme and font choice allow for a high level of readability. The navigation bar is simple, yet effective and the layout of the contents are easy to understand.
